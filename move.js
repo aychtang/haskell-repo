@@ -33,6 +33,7 @@ var moveFile = function(file) {
 	}
 };
 
+// [string files]
 var files = readFile('./');
 
 for (var i = 0; i < files.length; i++) {
